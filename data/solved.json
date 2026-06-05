@@ -1,0 +1,596 @@
+[
+  {
+    "id": "cf-1899A",
+    "platform": "Codeforces",
+    "contestId": 1899,
+    "index": "A",
+    "title": "Game with Integers",
+    "url": "https://codeforces.com/problemset/problem/1899/A",
+    "rating": 800,
+    "tags": [
+      "games",
+      "math",
+      "number theory"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2025-12-07",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-1270A",
+    "platform": "Codeforces",
+    "contestId": 1270,
+    "index": "A",
+    "title": "Card Game",
+    "url": "https://codeforces.com/problemset/problem/1270/A",
+    "rating": 800,
+    "tags": [
+      "games",
+      "greedy",
+      "math"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2025-12-08",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-1388A",
+    "platform": "Codeforces",
+    "contestId": 1388,
+    "index": "A",
+    "title": "Captain Flint and Crew Recruitment",
+    "url": "https://codeforces.com/problemset/problem/1388/A",
+    "rating": 800,
+    "tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "number theory"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2025-12-08",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-160A",
+    "platform": "Codeforces",
+    "contestId": 160,
+    "index": "A",
+    "title": "Twins",
+    "url": "https://codeforces.com/problemset/problem/160/A",
+    "rating": 900,
+    "tags": [
+      "greedy",
+      "sortings"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2025-12-08",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-2167A",
+    "platform": "Codeforces",
+    "contestId": 2167,
+    "index": "A",
+    "title": "Square?",
+    "url": "https://codeforces.com/problemset/problem/2167/A",
+    "rating": 800,
+    "tags": [
+      "math",
+      "sortings"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2025-12-08",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-492B",
+    "platform": "Codeforces",
+    "contestId": 492,
+    "index": "B",
+    "title": "Vanya and Lanterns",
+    "url": "https://codeforces.com/problemset/problem/492/B",
+    "rating": 1200,
+    "tags": [
+      "binary search",
+      "implementation",
+      "math",
+      "sortings"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2025-12-08",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-2176A",
+    "platform": "Codeforces",
+    "contestId": 2176,
+    "index": "A",
+    "title": "Operations with Inversions",
+    "url": "https://codeforces.com/problemset/problem/2176/A",
+    "rating": 800,
+    "tags": [
+      "greedy",
+      "implementation",
+      "math"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2025-12-14",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-1399B",
+    "platform": "Codeforces",
+    "contestId": 1399,
+    "index": "B",
+    "title": "Gifts Fixing",
+    "url": "https://codeforces.com/problemset/problem/1399/B",
+    "rating": 800,
+    "tags": [
+      "greedy"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2025-12-16",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-946A",
+    "platform": "Codeforces",
+    "contestId": 946,
+    "index": "A",
+    "title": "Partition",
+    "url": "https://codeforces.com/problemset/problem/946/A",
+    "rating": 800,
+    "tags": [
+      "greedy"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2025-12-16",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-670A",
+    "platform": "Codeforces",
+    "contestId": 670,
+    "index": "A",
+    "title": "Holidays",
+    "url": "https://codeforces.com/problemset/problem/670/A",
+    "rating": 900,
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "math"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2025-12-17",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-859A",
+    "platform": "Codeforces",
+    "contestId": 859,
+    "index": "A",
+    "title": "Declined Finalists",
+    "url": "https://codeforces.com/problemset/problem/859/A",
+    "rating": 800,
+    "tags": [
+      "greedy",
+      "implementation"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2025-12-17",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-1397A",
+    "platform": "Codeforces",
+    "contestId": 1397,
+    "index": "A",
+    "title": "Juggling Letters",
+    "url": "https://codeforces.com/problemset/problem/1397/A",
+    "rating": 800,
+    "tags": [
+      "greedy",
+      "strings"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2025-12-18",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-1409A",
+    "platform": "Codeforces",
+    "contestId": 1409,
+    "index": "A",
+    "title": "Yet Another Two Integers Problem",
+    "url": "https://codeforces.com/problemset/problem/1409/A",
+    "rating": 800,
+    "tags": [
+      "greedy",
+      "math"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2025-12-18",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-749A",
+    "platform": "Codeforces",
+    "contestId": 749,
+    "index": "A",
+    "title": "Bachgold Problem",
+    "url": "https://codeforces.com/problemset/problem/749/A",
+    "rating": 800,
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "number theory"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2025-12-18",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-1370A",
+    "platform": "Codeforces",
+    "contestId": 1370,
+    "index": "A",
+    "title": "Maximum GCD",
+    "url": "https://codeforces.com/problemset/problem/1370/A",
+    "rating": 800,
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "number theory"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2025-12-19",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-2125B",
+    "platform": "Codeforces",
+    "contestId": 2125,
+    "index": "B",
+    "title": "Left and Down",
+    "url": "https://codeforces.com/problemset/problem/2125/B",
+    "rating": 900,
+    "tags": [
+      "math",
+      "number theory"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2025-12-19",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-2180A",
+    "platform": "Codeforces",
+    "contestId": 2180,
+    "index": "A",
+    "title": "Carnival Wheel",
+    "url": "https://codeforces.com/problemset/problem/2180/A",
+    "rating": 800,
+    "tags": [
+      "brute force",
+      "number theory"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2025-12-19",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-2180B",
+    "platform": "Codeforces",
+    "contestId": 2180,
+    "index": "B",
+    "title": "Ashmal",
+    "url": "https://codeforces.com/problemset/problem/2180/B",
+    "rating": 800,
+    "tags": [
+      "greedy",
+      "strings"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2025-12-19",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-433A",
+    "platform": "Codeforces",
+    "contestId": 433,
+    "index": "A",
+    "title": "Kitahara Haruki's Gift",
+    "url": "https://codeforces.com/problemset/problem/433/A",
+    "rating": 1100,
+    "tags": [
+      "brute force",
+      "implementation"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2025-12-19",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-2175A",
+    "platform": "Codeforces",
+    "contestId": 2175,
+    "index": "A",
+    "title": "Little Fairy's Painting",
+    "url": "https://codeforces.com/problemset/problem/2175/A",
+    "rating": 800,
+    "tags": [
+      "implementation"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2025-12-20",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-1096A",
+    "platform": "Codeforces",
+    "contestId": 1096,
+    "index": "A",
+    "title": "Find Divisible",
+    "url": "https://codeforces.com/problemset/problem/1096/A",
+    "rating": 800,
+    "tags": [
+      "greedy",
+      "implementation",
+      "math"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2025-12-21",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-1271A",
+    "platform": "Codeforces",
+    "contestId": 1271,
+    "index": "A",
+    "title": "Suits",
+    "url": "https://codeforces.com/problemset/problem/1271/A",
+    "rating": 800,
+    "tags": [
+      "brute force",
+      "greedy",
+      "math"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2025-12-21",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-1152A",
+    "platform": "Codeforces",
+    "contestId": 1152,
+    "index": "A",
+    "title": "Neko Finds Grapes",
+    "url": "https://codeforces.com/problemset/problem/1152/A",
+    "rating": 800,
+    "tags": [
+      "greedy",
+      "implementation",
+      "math"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2025-12-22",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-1197B",
+    "platform": "Codeforces",
+    "contestId": 1197,
+    "index": "B",
+    "title": "Pillars",
+    "url": "https://codeforces.com/problemset/problem/1197/B",
+    "rating": 1000,
+    "tags": [
+      "greedy",
+      "implementation"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2025-12-22",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-931A",
+    "platform": "Codeforces",
+    "contestId": 931,
+    "index": "A",
+    "title": "Friends Meeting",
+    "url": "https://codeforces.com/problemset/problem/931/A",
+    "rating": 800,
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "math"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2025-12-22",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-2179A",
+    "platform": "Codeforces",
+    "contestId": 2179,
+    "index": "A",
+    "title": "Blackslex and Password",
+    "url": "https://codeforces.com/problemset/problem/2179/A",
+    "rating": 800,
+    "tags": [
+      "math",
+      "strings"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2025-12-23",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-2179B",
+    "platform": "Codeforces",
+    "contestId": 2179,
+    "index": "B",
+    "title": "Blackslex and Showering",
+    "url": "https://codeforces.com/problemset/problem/2179/B",
+    "rating": 800,
+    "tags": [
+      "dp",
+      "greedy",
+      "implementation"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2025-12-23",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-2179C",
+    "platform": "Codeforces",
+    "contestId": 2179,
+    "index": "C",
+    "title": "Blackslex and Number Theory",
+    "url": "https://codeforces.com/problemset/problem/2179/C",
+    "rating": 1100,
+    "tags": [
+      "implementation",
+      "math",
+      "number theory",
+      "sortings"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2025-12-23",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-1150A",
+    "platform": "Codeforces",
+    "contestId": 1150,
+    "index": "A",
+    "title": "Stock Arbitraging",
+    "url": "https://codeforces.com/problemset/problem/1150/A",
+    "rating": 800,
+    "tags": [
+      "greedy",
+      "implementation"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2025-12-26",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-4A",
+    "platform": "Codeforces",
+    "contestId": 4,
+    "index": "A",
+    "title": "Watermelon",
+    "url": "https://codeforces.com/problemset/problem/4/A",
+    "rating": 800,
+    "tags": [
+      "math",
+      "implementation"
+    ],
+    "language": "cpp",
+    "solutionPath": "solutions/codeforces/800/4A_Watermelon.cpp",
+    "solvedDate": "2026-06-01",
+    "notes": "Basic even number logic."
+  },
+  {
+    "id": "cf-71A",
+    "platform": "Codeforces",
+    "contestId": 71,
+    "index": "A",
+    "title": "Way Too Long Words",
+    "url": "https://codeforces.com/problemset/problem/71/A",
+    "rating": 800,
+    "tags": [
+      "strings",
+      "implementation"
+    ],
+    "language": "cpp",
+    "solutionPath": "solutions/codeforces/800/71A_Way_Too_Long_Words.cpp",
+    "solvedDate": "2026-06-02",
+    "notes": "String abbreviation for long words."
+  },
+  {
+    "id": "cf-231A",
+    "platform": "Codeforces",
+    "contestId": 231,
+    "index": "A",
+    "title": "Team",
+    "url": "https://codeforces.com/problemset/problem/231/A",
+    "rating": 800,
+    "tags": [
+      "implementation"
+    ],
+    "language": "cpp",
+    "solutionPath": "solutions/codeforces/800/231A_Team.cpp",
+    "solvedDate": "2026-06-03",
+    "notes": "Count problems when at least two teammates agree."
+  },
+  {
+    "id": "cf-158A",
+    "platform": "Codeforces",
+    "contestId": 158,
+    "index": "A",
+    "title": "Next Round",
+    "url": "https://codeforces.com/problemset/problem/158/A",
+    "rating": 800,
+    "tags": [
+      "implementation"
+    ],
+    "language": "cpp",
+    "solutionPath": "solutions/codeforces/800/158A_Next_Round.cpp",
+    "solvedDate": "2026-06-04",
+    "notes": "Filter positive scores at or above the kth score."
+  },
+  {
+    "id": "cf-50A",
+    "platform": "Codeforces",
+    "contestId": 50,
+    "index": "A",
+    "title": "Domino piling",
+    "url": "https://codeforces.com/problemset/problem/50/A",
+    "rating": 800,
+    "tags": [
+      "math",
+      "greedy"
+    ],
+    "language": "cpp",
+    "solutionPath": "solutions/codeforces/800/50A_Domino_piling.cpp",
+    "solvedDate": "2026-06-05",
+    "notes": "Maximum dominoes equals floor(m * n / 2)."
+  }
+]

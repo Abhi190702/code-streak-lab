@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cp-dsa-streak-tracker"
+version = "0.1.0"
+description = "A JSON-powered Codeforces-first CP and DSA streak tracker for GitHub README dashboards."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [
+  { name = "Abhijeet Ranjan" }
+]
+dependencies = [
+  "matplotlib>=3.8",
+  "requests>=2.31"
+]
+
+[tool.setuptools]
+py-modules = []
+
