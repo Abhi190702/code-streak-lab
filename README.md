@@ -6,22 +6,20 @@
 ![Codeforces Rating](https://img.shields.io/badge/Codeforces%20Rating-734-dc2626?style=for-the-badge)
 ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--06--05-4b5563?style=for-the-badge)
 
-A clean dashboard to track my competitive programming, DSA practice, Codeforces progress, topic-wise growth, rating-wise progress, and daily consistency.
-
-> Generated from `templates/README_TEMPLATE.md`. Edit the template, then run `python scripts/generate_readme.py`.
+A personal competitive programming dashboard focused on Codeforces consistency, problem volume, topic coverage, rating growth, and daily execution.
 
 ## About
 
-I am **Abhijeet Ranjan**, practicing competitive programming and DSA with a Codeforces-first workflow. My current goal is: **Become strong in CP, DSA, DevOps and Open Source**.
+**Abhijeet Ranjan** is building a consistent competitive programming record through a Codeforces-first practice system. Current focus: **Become strong in CP, DSA, DevOps and Open Source**.
 
-## My Coding Profiles
+## Coding Profiles
 
 | Platform | Handle | Link |
 | --- | --- | --- |
 | GitHub | Abhi190702 | [Profile](https://github.com/Abhi190702) |
 | Codeforces | ZAck19_0 | [Profile](https://codeforces.com/profile/ZAck19_0) |
 
-## Progress Dashboard
+## Progress Overview
 
 | Metric | Value |
 | --- | --- |
@@ -33,13 +31,41 @@ I am **Abhijeet Ranjan**, practicing competitive programming and DSA with a Code
 | Codeforces rating | 734 |
 | Last updated | 2026-06-05T06:35:31Z |
 
-## Current Streak
+## Codeforces Snapshot
+
+| Codeforces Metric | Value |
+| --- | --- |
+| Handle | ZAck19_0 |
+| Current rating | 734 |
+| Max rating | 734 |
+| Current rank | newbie |
+| Max rank | newbie |
+| Contribution | 0 |
+| Friend of count | 0 |
+| Last fetched | 2026-06-05T06:33:25Z |
+
+## Streak Performance
 
 Current streak: **5 day(s)**. Longest streak so far: **8 day(s)**.
 
-## Total Problems Solved
-
 Total logged problems: **34**. Latest active month: **2026-06** with **5** solved problem(s).
+
+## Weekly Progress
+
+| Week | Solved |
+| --- | --- |
+| 2026-W23 | 5 |
+| 2025-W52 | 7 |
+| 2025-W51 | 15 |
+| 2025-W50 | 6 |
+| 2025-W49 | 1 |
+
+## Monthly Progress
+
+| Month | Solved |
+| --- | --- |
+| 2026-06 | 5 |
+| 2025-12 | 29 |
 
 ## Topic-wise Distribution
 
@@ -102,101 +128,16 @@ Total logged problems: **34**. Latest active month: **2026-06** with **5** solve
 | 2025-12-23 | Codeforces | [Blackslex and Number Theory](https://codeforces.com/problemset/problem/2179/C) | 1100 | implementation, math, number theory, sortings | Imported |
 | 2025-12-22 | Codeforces | [Neko Finds Grapes](https://codeforces.com/problemset/problem/1152/A) | 800 | greedy, implementation, math | Imported |
 
-## Folder Structure
+## Dashboard System
 
-```text
-cp-dsa-streak-tracker/
-├── data/
-│   ├── profile.json
-│   ├── solved.json
-│   └── stats.json
-├── solutions/
-│   └── codeforces/
-│       ├── 800/
-│       ├── 900/
-│       ├── 1000/
-│       ├── 1100/
-│       ├── 1200/
-│       └── unrated/
-├── scripts/
-│   ├── add_problem.py
-│   ├── common.py
-│   ├── fetch_codeforces.py
-│   ├── generate_readme.py
-│   ├── generate_stats.py
-│   └── validate_solution.py
-├── assets/
-│   ├── graphs/
-│   └── badges/
-├── templates/
-│   └── README_TEMPLATE.md
-└── .github/
-    └── workflows/
-        ├── update-readme.yml
-        └── validate.yml
-```
-
-## How I Add a New Problem
-
-Step 1: create a solution file in the matching rating folder.
-
-```bash
-solutions/codeforces/<rating>/<contestId><index>_<Problem_Name>.cpp
-```
-
-Step 2: add a metadata block at the top.
-
-```cpp
-/*
-Platform: Codeforces
-Problem: Watermelon
-Contest ID: 4
-Index: A
-Rating: 800
-Tags: math, implementation
-Solved Date: 2026-06-05
-URL: https://codeforces.com/problemset/problem/4/A
-*/
-```
-
-Step 3: regenerate the dashboard.
-
-```bash
-python scripts/validate_solution.py
-python scripts/generate_stats.py
-python scripts/generate_readme.py
-```
-
-Step 4: commit and push.
-
-```bash
-git add .
-git commit -m "solve: add Codeforces 4A Watermelon"
-git push
-```
-
-CLI shortcut:
-
-```bash
-python scripts/add_problem.py --platform Codeforces --contest 4 --index A --title "Watermelon" --rating 800 --tags "math,implementation" --language cpp --date 2026-06-05
-```
-
-## Roadmap
-
-- Codeforces support
-- LeetCode support
-- AtCoder support
-- CodeChef support
-- GitHub Action auto-update
-- Better SVG contribution calendar
-- Personal CP analytics dashboard
-- Public website version
-
-## Extending Beyond Codeforces
-
-The data model already stores `platform`, `tags`, `rating`, `solutionPath`, and `solvedDate`, so new platforms can reuse the same dashboard. For LeetCode or AtCoder, add a platform folder under `solutions/`, create a fetcher only if the API is reliable, and keep manual JSON entry as the fallback path.
+| Layer | Details |
+| --- | --- |
+| Data source | Codeforces API plus local solution metadata |
+| Storage | JSON files under `data/` |
+| Readme assets | SVG graphs under `assets/graphs/` |
+| Refresh flow | GitHub Actions and local Python generators |
+| Last generated | 2026-06-05T06:33:45Z |
 
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE).
-

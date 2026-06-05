@@ -54,8 +54,8 @@ def build_about(profile: dict[str, Any]) -> str:
     name = profile.get("name") or "Abhijeet Ranjan"
     goal = profile.get("goal") or "Build strong problem-solving consistency."
     return (
-        f"I am **{escape(name)}**, practicing competitive programming and DSA with a Codeforces-first workflow. "
-        f"My current goal is: **{escape(goal)}**."
+        f"**{escape(name)}** is building a consistent competitive programming record through a Codeforces-first practice system. "
+        f"Current focus: **{escape(goal)}**."
     )
 
 
@@ -94,6 +94,20 @@ def build_dashboard_table(profile: dict[str, Any], stats: dict[str, Any]) -> str
     return markdown_table(["Metric", "Value"], rows)
 
 
+def build_codeforces_snapshot(profile: dict[str, Any]) -> str:
+    rows = [
+        ["Handle", escape(str(profile.get("codeforces") or "not set"))],
+        ["Current rating", escape(str(profile.get("codeforcesRating") or "unrated"))],
+        ["Max rating", escape(str(profile.get("codeforcesMaxRating") or "unrated"))],
+        ["Current rank", escape(str(profile.get("codeforcesRank") or "unrated"))],
+        ["Max rank", escape(str(profile.get("codeforcesMaxRank") or "unrated"))],
+        ["Contribution", escape(str(profile.get("codeforcesContribution") or 0))],
+        ["Friend of count", escape(str(profile.get("codeforcesFriendOfCount") or 0))],
+        ["Last fetched", escape(str(profile.get("codeforcesLastFetched") or "not fetched"))],
+    ]
+    return markdown_table(["Codeforces Metric", "Value"], rows)
+
+
 def build_streak_summary(stats: dict[str, Any]) -> str:
     current = stats.get("currentStreak", 0)
     longest = stats.get("longestStreak", 0)
@@ -112,6 +126,12 @@ def build_total_solved_section(stats: dict[str, Any]) -> str:
 
 def build_counter_table(title: str, data: dict[str, int]) -> str:
     rows = [[escape(str(key)), str(value)] for key, value in data.items()]
+    return markdown_table([title, "Solved"], rows)
+
+
+def build_recent_counter_table(title: str, data: dict[str, int], limit: int = 12) -> str:
+    items = list(data.items())[-limit:]
+    rows = [[escape(str(key)), str(value)] for key, value in reversed(items)]
     return markdown_table([title, "Solved"], rows)
 
 
@@ -143,11 +163,15 @@ def build_platform_table(stats: dict[str, Any]) -> str:
     return build_counter_table("Platform", stats.get("platformStats", {}))
 
 
-def build_extension_notes() -> str:
-    return (
-        "The data model already stores `platform`, `tags`, `rating`, `solutionPath`, and `solvedDate`, so new platforms can reuse the same dashboard. "
-        "For LeetCode or AtCoder, add a platform folder under `solutions/`, create a fetcher only if the API is reliable, and keep manual JSON entry as the fallback path."
-    )
+def build_dashboard_system(stats: dict[str, Any]) -> str:
+    rows = [
+        ["Data source", "Codeforces API plus local solution metadata"],
+        ["Storage", "JSON files under `data/`"],
+        ["Readme assets", "SVG graphs under `assets/graphs/`"],
+        ["Refresh flow", "GitHub Actions and local Python generators"],
+        ["Last generated", escape(str(stats.get("lastUpdated") or "not generated"))],
+    ]
+    return markdown_table(["Layer", "Details"], rows)
 
 
 def render_readme(profile: dict[str, Any], solved: list[dict[str, Any]], stats: dict[str, Any]) -> str:
@@ -157,13 +181,16 @@ def render_readme(profile: dict[str, Any], solved: list[dict[str, Any]], stats: 
         "{{ABOUT}}": build_about(profile),
         "{{PROFILE_LINKS}}": build_profile_links(profile),
         "{{DASHBOARD_TABLE}}": build_dashboard_table(profile, stats),
+        "{{CODEFORCES_SNAPSHOT}}": build_codeforces_snapshot(profile),
         "{{STREAK_SUMMARY}}": build_streak_summary(stats),
         "{{TOTAL_SOLVED_SECTION}}": build_total_solved_section(stats),
+        "{{WEEKLY_TABLE}}": build_recent_counter_table("Week", stats.get("weeklyStats", {})),
+        "{{MONTHLY_TABLE}}": build_recent_counter_table("Month", stats.get("monthlyStats", {})),
         "{{TOPIC_TABLE}}": build_counter_table("Topic", stats.get("topicStats", {})),
         "{{RATING_TABLE}}": build_counter_table("Rating", stats.get("ratingStats", {})),
         "{{PLATFORM_TABLE}}": build_platform_table(stats),
         "{{LATEST_TABLE}}": build_latest_table(solved),
-        "{{EXTENSION_NOTES}}": build_extension_notes(),
+        "{{DASHBOARD_SYSTEM}}": build_dashboard_system(stats),
     }
     output = template
     for placeholder, value in replacements.items():
@@ -193,4 +220,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
