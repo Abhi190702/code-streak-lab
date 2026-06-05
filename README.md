@@ -122,11 +122,11 @@ Total logged problems: **34**. Latest active month: **2026-06** with **5** solve
 | 2026-06-03 | Codeforces | [Team](https://codeforces.com/problemset/problem/231/A) | 800 | implementation | [cpp](solutions/codeforces/800/231A_Team.cpp) |
 | 2026-06-02 | Codeforces | [Way Too Long Words](https://codeforces.com/problemset/problem/71/A) | 800 | strings, implementation | [cpp](solutions/codeforces/800/71A_Way_Too_Long_Words.cpp) |
 | 2026-06-01 | Codeforces | [Watermelon](https://codeforces.com/problemset/problem/4/A) | 800 | math, implementation | [cpp](solutions/codeforces/800/4A_Watermelon.cpp) |
-| 2025-12-26 | Codeforces | [Stock Arbitraging](https://codeforces.com/problemset/problem/1150/A) | 800 | greedy, implementation | Imported |
-| 2025-12-23 | Codeforces | [Blackslex and Password](https://codeforces.com/problemset/problem/2179/A) | 800 | math, strings | Imported |
-| 2025-12-23 | Codeforces | [Blackslex and Showering](https://codeforces.com/problemset/problem/2179/B) | 800 | dp, greedy, implementation | Imported |
-| 2025-12-23 | Codeforces | [Blackslex and Number Theory](https://codeforces.com/problemset/problem/2179/C) | 1100 | implementation, math, number theory, sortings | Imported |
-| 2025-12-22 | Codeforces | [Neko Finds Grapes](https://codeforces.com/problemset/problem/1152/A) | 800 | greedy, implementation, math | Imported |
+| 2025-12-26 | Codeforces | [Stock Arbitraging](https://codeforces.com/problemset/problem/1150/A) | 800 | greedy, implementation | No local solution |
+| 2025-12-23 | Codeforces | [Blackslex and Password](https://codeforces.com/problemset/problem/2179/A) | 800 | math, strings | No local solution |
+| 2025-12-23 | Codeforces | [Blackslex and Showering](https://codeforces.com/problemset/problem/2179/B) | 800 | dp, greedy, implementation | No local solution |
+| 2025-12-23 | Codeforces | [Blackslex and Number Theory](https://codeforces.com/problemset/problem/2179/C) | 1100 | implementation, math, number theory, sortings | No local solution |
+| 2025-12-22 | Codeforces | [Neko Finds Grapes](https://codeforces.com/problemset/problem/1152/A) | 800 | greedy, implementation, math | No local solution |
 
 ## Dashboard System
 
@@ -137,7 +137,3 @@ Total logged problems: **34**. Latest active month: **2026-06** with **5** solve
 | Readme assets | SVG graphs under `assets/graphs/` |
 | Refresh flow | GitHub Actions and local Python generators |
 | Last generated | 2026-06-05T06:41:55Z |
-
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE).

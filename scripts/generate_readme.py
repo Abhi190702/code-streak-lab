@@ -144,7 +144,7 @@ def build_latest_table(solved: list[dict[str, Any]]) -> str:
         problem = format_link(title, entry.get("url"))
         topics = ", ".join(entry.get("tags") or []) or "-"
         solution_path = entry.get("solutionPath") or ""
-        solution = format_link(entry.get("language") or "solution", solution_path) if solution_path else "Imported"
+        solution = format_link(entry.get("language") or "solution", solution_path) if solution_path else "No local solution"
         rows.append(
             [
                 escape(str(entry.get("solvedDate") or "-")),

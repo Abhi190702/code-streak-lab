@@ -67,7 +67,3 @@ A personal competitive programming dashboard focused on Codeforces consistency, 
 ## Dashboard System
 
 {{DASHBOARD_SYSTEM}}
-
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE).
