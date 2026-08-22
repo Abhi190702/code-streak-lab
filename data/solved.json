@@ -592,5 +592,57 @@
     "solutionPath": "solutions/codeforces/800/50A_Domino_piling.cpp",
     "solvedDate": "2026-06-05",
     "notes": "Maximum dominoes equals floor(m * n / 2)."
+  },
+  {
+    "id": "cf-2253A",
+    "platform": "Codeforces",
+    "contestId": 2253,
+    "index": "A",
+    "title": "The Best Card",
+    "url": "https://codeforces.com/problemset/problem/2253/A",
+    "rating": 800,
+    "tags": [
+      "greedy",
+      "math",
+      "number theory"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2026-08-21",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-2254A",
+    "platform": "Codeforces",
+    "contestId": 2254,
+    "index": "A",
+    "title": "Riptide",
+    "url": "https://codeforces.com/problemset/problem/2254/A",
+    "rating": 800,
+    "tags": [
+      "implementation",
+      "sortings"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2026-08-21",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-2256A",
+    "platform": "Codeforces",
+    "contestId": 2256,
+    "index": "A",
+    "title": "Three Numbers on the Blackboard",
+    "url": "https://codeforces.com/problemset/problem/2256/A",
+    "rating": 800,
+    "tags": [
+      "math",
+      "sortings"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2026-08-21",
+    "notes": "Imported from Codeforces API."
   }
 ]
