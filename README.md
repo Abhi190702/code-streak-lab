@@ -1,10 +1,10 @@
 # CP & DSA Streak Tracker
 
 ![Total Solved](https://img.shields.io/badge/Total%20Solved-37-2563eb?style=for-the-badge)
-![Current Streak](https://img.shields.io/badge/Current%20Streak-1%20days-16a34a?style=for-the-badge)
+![Current Streak](https://img.shields.io/badge/Current%20Streak-0%20days-16a34a?style=for-the-badge)
 ![Longest Streak](https://img.shields.io/badge/Longest%20Streak-8%20days-f59e0b?style=for-the-badge)
 ![Codeforces Rating](https://img.shields.io/badge/Codeforces%20Rating-734-dc2626?style=for-the-badge)
-![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--22-4b5563?style=for-the-badge)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--23-4b5563?style=for-the-badge)
 
 A personal competitive programming dashboard focused on Codeforces consistency, problem volume, topic coverage, rating growth, and daily execution.
 
@@ -24,12 +24,12 @@ A personal competitive programming dashboard focused on Codeforces consistency, 
 | Metric | Value |
 | --- | --- |
 | Total solved | 37 |
-| Current streak | 1 day(s) |
+| Current streak | 0 day(s) |
 | Longest streak | 8 day(s) |
 | Platforms tracked | 1 |
 | Codeforces handle | ZAck19_0 |
 | Codeforces rating | 734 |
-| Last updated | 2026-08-22T03:11:28Z |
+| Last updated | 2026-08-23T03:15:24Z |
 
 ## Codeforces Snapshot
 
@@ -42,11 +42,11 @@ A personal competitive programming dashboard focused on Codeforces consistency, 
 | Max rank | newbie |
 | Contribution | 0 |
 | Friend of count | 0 |
-| Last fetched | 2026-08-22T03:11:27Z |
+| Last fetched | 2026-08-23T03:15:22Z |
 
 ## Streak Performance
 
-Current streak: **1 day(s)**. Longest streak so far: **8 day(s)**.
+No active streak today. Longest streak so far: **8 day(s)**.
 
 Total logged problems: **37**. Latest active month: **2026-08** with **3** solved problem(s).
 
@@ -138,4 +138,4 @@ Total logged problems: **37**. Latest active month: **2026-08** with **3** solve
 | Storage | JSON files under `data/` |
 | Readme assets | SVG graphs under `assets/graphs/` |
 | Refresh flow | GitHub Actions and local Python generators |
-| Last generated | 2026-08-22T03:11:28Z |
+| Last generated | 2026-08-23T03:15:24Z |
