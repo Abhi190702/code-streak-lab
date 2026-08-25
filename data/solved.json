@@ -644,5 +644,39 @@
     "solutionPath": "",
     "solvedDate": "2026-08-21",
     "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-1543A",
+    "platform": "Codeforces",
+    "contestId": 1543,
+    "index": "A",
+    "title": "Exciting Bets",
+    "url": "https://codeforces.com/problemset/problem/1543/A",
+    "rating": 900,
+    "tags": [
+      "greedy",
+      "math",
+      "number theory"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2026-08-24",
+    "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-1829B",
+    "platform": "Codeforces",
+    "contestId": 1829,
+    "index": "B",
+    "title": "Blank Space",
+    "url": "https://codeforces.com/problemset/problem/1829/B",
+    "rating": 800,
+    "tags": [
+      "implementation"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2026-08-24",
+    "notes": "Imported from Codeforces API."
   }
 ]
