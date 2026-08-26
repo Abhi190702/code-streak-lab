@@ -1,6 +1,6 @@
 {
   "totalSolved": 39,
-  "currentStreak": 1,
+  "currentStreak": 0,
   "longestStreak": 8,
   "platformStats": {
     "Codeforces": 39
@@ -60,5 +60,5 @@
     "2026-08-21": 3,
     "2026-08-24": 2
   },
-  "lastUpdated": "2026-08-25T03:12:44Z"
+  "lastUpdated": "2026-08-26T03:17:45Z"
 }
