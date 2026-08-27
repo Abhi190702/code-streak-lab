@@ -678,5 +678,23 @@
     "solutionPath": "",
     "solvedDate": "2026-08-24",
     "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-1794B",
+    "platform": "Codeforces",
+    "contestId": 1794,
+    "index": "B",
+    "title": "Not Dividing",
+    "url": "https://codeforces.com/problemset/problem/1794/B",
+    "rating": 900,
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2026-08-26",
+    "notes": "Imported from Codeforces API."
   }
 ]
