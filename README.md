@@ -1,10 +1,10 @@
 # CP & DSA Streak Tracker
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-40-2563eb?style=for-the-badge)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-41-2563eb?style=for-the-badge)
 ![Current Streak](https://img.shields.io/badge/Current%20Streak-1%20days-16a34a?style=for-the-badge)
 ![Longest Streak](https://img.shields.io/badge/Longest%20Streak-8%20days-f59e0b?style=for-the-badge)
 ![Codeforces Rating](https://img.shields.io/badge/Codeforces%20Rating-734-dc2626?style=for-the-badge)
-![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--27-4b5563?style=for-the-badge)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--28-4b5563?style=for-the-badge)
 
 A personal competitive programming dashboard focused on Codeforces consistency, problem volume, topic coverage, rating growth, and daily execution.
 
@@ -23,13 +23,13 @@ A personal competitive programming dashboard focused on Codeforces consistency, 
 
 | Metric | Value |
 | --- | --- |
-| Total solved | 40 |
+| Total solved | 41 |
 | Current streak | 1 day(s) |
 | Longest streak | 8 day(s) |
 | Platforms tracked | 1 |
 | Codeforces handle | ZAck19_0 |
 | Codeforces rating | 734 |
-| Last updated | 2026-08-27T12:47:23Z |
+| Last updated | 2026-08-28T14:22:26Z |
 
 ## Codeforces Snapshot
 
@@ -42,19 +42,19 @@ A personal competitive programming dashboard focused on Codeforces consistency, 
 | Max rank | newbie |
 | Contribution | 0 |
 | Friend of count | 0 |
-| Last fetched | 2026-08-27T12:47:22Z |
+| Last fetched | 2026-08-28T14:22:25Z |
 
 ## Streak Performance
 
 Current streak: **1 day(s)**. Longest streak so far: **8 day(s)**.
 
-Total logged problems: **40**. Latest active month: **2026-08** with **6** solved problem(s).
+Total logged problems: **41**. Latest active month: **2026-08** with **7** solved problem(s).
 
 ## Weekly Progress
 
 | Week | Solved |
 | --- | --- |
-| 2026-W35 | 3 |
+| 2026-W35 | 4 |
 | 2026-W34 | 3 |
 | 2026-W23 | 5 |
 | 2025-W52 | 7 |
@@ -66,7 +66,7 @@ Total logged problems: **40**. Latest active month: **2026-08** with **6** solve
 
 | Month | Solved |
 | --- | --- |
-| 2026-08 | 6 |
+| 2026-08 | 7 |
 | 2026-06 | 5 |
 | 2025-12 | 29 |
 
@@ -78,7 +78,7 @@ Total logged problems: **40**. Latest active month: **2026-08** with **6** solve
 | --- | --- |
 | greedy | 24 |
 | math | 23 |
-| implementation | 20 |
+| implementation | 21 |
 | number theory | 9 |
 | brute force | 6 |
 | sortings | 6 |
@@ -97,7 +97,7 @@ Total logged problems: **40**. Latest active month: **2026-08** with **6** solve
 | 800 | 31 |
 | 900 | 5 |
 | 1000 | 1 |
-| 1100 | 2 |
+| 1100 | 3 |
 | 1200 | 1 |
 
 ## Platform Distribution
@@ -106,7 +106,7 @@ Total logged problems: **40**. Latest active month: **2026-08** with **6** solve
 
 | Platform | Solved |
 | --- | --- |
-| Codeforces | 40 |
+| Codeforces | 41 |
 
 ## Daily Activity Graph
 
@@ -120,6 +120,7 @@ Total logged problems: **40**. Latest active month: **2026-08** with **6** solve
 
 | Date | Platform | Problem | Rating | Topics | Solution |
 | --- | --- | --- | --- | --- | --- |
+| 2026-08-28 | Codeforces | [Effective Approach](https://codeforces.com/problemset/problem/227/B) | 1100 | implementation | No local solution |
 | 2026-08-26 | Codeforces | [Not Dividing](https://codeforces.com/problemset/problem/1794/B) | 900 | constructive algorithms, greedy, math | No local solution |
 | 2026-08-24 | Codeforces | [Exciting Bets](https://codeforces.com/problemset/problem/1543/A) | 900 | greedy, math, number theory | No local solution |
 | 2026-08-24 | Codeforces | [Blank Space](https://codeforces.com/problemset/problem/1829/B) | 800 | implementation | No local solution |
@@ -129,7 +130,6 @@ Total logged problems: **40**. Latest active month: **2026-08** with **6** solve
 | 2026-06-05 | Codeforces | [Domino piling](https://codeforces.com/problemset/problem/50/A) | 800 | math, greedy | [cpp](solutions/codeforces/800/50A_Domino_piling.cpp) |
 | 2026-06-04 | Codeforces | [Next Round](https://codeforces.com/problemset/problem/158/A) | 800 | implementation | [cpp](solutions/codeforces/800/158A_Next_Round.cpp) |
 | 2026-06-03 | Codeforces | [Team](https://codeforces.com/problemset/problem/231/A) | 800 | implementation | [cpp](solutions/codeforces/800/231A_Team.cpp) |
-| 2026-06-02 | Codeforces | [Way Too Long Words](https://codeforces.com/problemset/problem/71/A) | 800 | strings, implementation | [cpp](solutions/codeforces/800/71A_Way_Too_Long_Words.cpp) |
 
 ## Dashboard System
 
@@ -139,4 +139,4 @@ Total logged problems: **40**. Latest active month: **2026-08** with **6** solve
 | Storage | JSON files under `data/` |
 | Readme assets | SVG graphs under `assets/graphs/` |
 | Refresh flow | GitHub Actions and local Python generators |
-| Last generated | 2026-08-27T12:47:23Z |
+| Last generated | 2026-08-28T14:22:26Z |

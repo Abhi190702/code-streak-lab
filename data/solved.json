@@ -696,5 +696,21 @@
     "solutionPath": "",
     "solvedDate": "2026-08-26",
     "notes": "Imported from Codeforces API."
+  },
+  {
+    "id": "cf-227B",
+    "platform": "Codeforces",
+    "contestId": 227,
+    "index": "B",
+    "title": "Effective Approach",
+    "url": "https://codeforces.com/problemset/problem/227/B",
+    "rating": 1100,
+    "tags": [
+      "implementation"
+    ],
+    "language": "",
+    "solutionPath": "",
+    "solvedDate": "2026-08-28",
+    "notes": "Imported from Codeforces API."
   }
 ]
